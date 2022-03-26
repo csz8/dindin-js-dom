@@ -22,7 +22,7 @@ linkCursos.setAttribute('href', 'curso.html');
 let introducao = document.getElementById('introducao');
 console.log(introducao);
 
-introducao.style.justifyContent = 'center';
+introducao.setAttribute('style', 'justify-content: center');
 
 // 2. Na etapa de depoimentos, o título deveria ser "O que falam sobre nós".
 
@@ -72,26 +72,3 @@ agora</a>
 </div>`;
 
 cursoatual.innerHTML = cursoatual.innerHTML + novocurso;
-
-//CONTATO
-
-// 1. O formulário não está funcionando, o atributo action deve mandar para url sucesso.html
-
-let contato = document.getElementsByTagName('form');
-console.log(contato);
-
-contato.setAttribute('action', 'sucesso.html')
-
-
-// 2. Após o campo de email, precisamos de um novo campo para que o usuário adicione também um número de telefone.
-
-
-
-// 3. O campo de mensagem está ultrapassando o tamanho do elemento pai. Podemos resolver adicionando o atributo box-sizing:border-box;
-
-
-
-// 4. O botão não está do tamanho adequado, precisa ter uma largura maior;
-
-
-// 5. Abaixo da section do formulário, adicione uma seção de comentário igual a página Home.
